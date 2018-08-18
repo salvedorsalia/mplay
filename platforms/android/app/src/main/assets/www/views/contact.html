@@ -1,0 +1,56 @@
+<div class="page">
+
+    <div class="navbar">
+            <div class="navbar-inner">
+
+              <div class="left">
+                    
+                    <a href="" data-panel="left"  onclick="showMenu()" class="link panel-close">
+                    <i class="app-icon icon-menu white">&#xf0c9;</i>
+                    <span class="ios-only white">Menu</span>
+                    </a>
+             </div>    
+ 
+             
+              
+              <div class="title">M-PLAY</div>
+                 
+             
+            </div>
+
+    </div>
+
+  <div class="page-content">
+
+
+    
+  </br>
+    <div class="center">
+          <h3>CONTACTANOS</h3>
+    </div>
+
+    <div class="row">    
+          <input type="text"  name="nombre" id="nombre_contacto"  placeholder="Nombre" required/>
+    </div>
+
+    <div class="row">    
+          <input type="email"  name="correo" id="email_contacto"  placeholder="nombre@correo.com" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required />
+    </div>
+
+    <div class="row">
+          <input type="text"  name="estado" id="estado_contacto"  placeholder="Estado" required/>
+    </div>
+
+    <div class="row">
+          
+  <textarea  name="comentarios" id="comentarios_contacto" rows="7" cols="50" placeholder="comentarios" required></textarea>
+
+    </div>
+
+    <div class="row">
+          
+          <button class="col button button button-raised button-fill red" onclick="app.FormularioContacto()" id="_sign_in">Enviar</button>
+    
+    </div>
+  </div>
+</div>
